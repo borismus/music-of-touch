@@ -4,7 +4,7 @@ Mobile browsers that implement the Web Audio API use the native playback
 (**case 1**). Those that don't fall back to an Audio server, and send
 messages to a Web Audio capable desktop browser over a web socket (**case 2**).
 
-![Architecture diagram.](http://i.imgur.com/Id14W.png)
+![Architecture diagram.](http://i.imgur.com/lTmiI.png)
 
 # State of the art
 
