@@ -1,0 +1,11 @@
+.logo {
+  display: block;
+  width: 320px;
+  margin: 40px auto;
+  -webkit-transition: -webkit-transform 0.1s ease-in-out;
+  -webkit-transform: scale(1);
+}
+
+.big {
+  -webkit-transform: scale(1.2);
+}

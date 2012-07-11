@@ -1,0 +1,27 @@
+.white-key, .black-key {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.white-key {
+  background: white;
+  border: 1px solid black;
+  width: 40px;
+  height: 175px;
+}
+
+.black-key {
+  background: black;
+  border: 1px solid white;
+  width: 20px;
+  height: 100px;
+  z-index: 1;
+  left: -10px;
+}
+
+.white-key:hover { background: #eee; }
+.black-key:hover { background: #333; }
+
+.white-key:active { background: red; }
+.black-key:active { background: red; }
