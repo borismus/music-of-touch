@@ -1,5 +1,5 @@
 function AudioProxy() {
-  this.server = new AudioServer('192.168.1.80', 1338);
+  this.server = new AudioServer('192.168.148.32', 1338);
   this.server.connect();
   this.synthManager = null;
 }
@@ -32,5 +32,7 @@ AudioProxy.prototype.showServerDialog = function() {
 };
 
 AudioProxy.prototype._isWebAudioSupported = function() {
+  // For debugging:
+  //return false;
   return !!window.webkitAudioContext;
 };

@@ -1,0 +1,69 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Theremin</title>
+  <meta name="description" content="">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/h/apple-touch-icon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/m/apple-touch-icon.png">
+  <link rel="apple-touch-icon-precomposed" href="img/l/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="img/l/apple-touch-icon.png">
+
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> -->
+  <!-- <script>(function(){var a;if(navigator.platform==="iPad"){a=window.orientation!==90||window.orientation===-90?"img/startup-tablet-landscape.png":"img/startup-tablet-portrait.png"}else{a=window.devicePixelRatio===2?"img/startup-retina.png":"img/startup.png"}document.write('<link rel="apple-touch-startup-image" href="'+a+'"/>')})()</script> -->
+  
+  <!-- <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script> -->
+  
+  <meta http-equiv="cleartype" content="on">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+  <script src="js/libs/pointer.js"></script>
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+    </header>
+
+    <div id="main" role="main">
+      <div id="theremin">
+        <img src="images/logo.png"/>
+      </div>
+    </div>
+
+    <footer>
+    </footer>
+  </div> <!--! end of #container -->
+
+
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+
+  <!-- <script src="https://getfirebug.com/firebug-lite.js"></script> -->
+
+  <script> // Change UA-XXXXX-X to be your site's ID
+    var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+    g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+    s.parentNode.insertBefore(g,s)}(document,"script"));
+  </script>
+
+  <script src="js/theremin-synth.js"></script>
+  <script src="js/theremin.js"></script>
+  <script src="../../shared/audio-server.js"></script>
+  <script src="../../shared/audio-synth-manager.js"></script>
+  <script src="../../shared/audio-proxy.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
+

@@ -5,6 +5,7 @@ window.addEventListener('load', function() {
   // Setup the synth manager and register all synthesizers with it.
   synthmgr = new AudioSynthManager();
   synthmgr.registerSynth('piano', PianoSynth);
+  synthmgr.registerSynth('theremin', ThereminSynth);
 
   // Connect to the audio server.
   server = new AudioServer('localhost', 1338);
