@@ -34,4 +34,3 @@ Need more musical instruments. Get creative!
    is clearly separated from your instrument's UI.
 5. Once you are ready, register your synth with the player in `/player`.
 6. Test thoroughly and submit a pull request.
-
