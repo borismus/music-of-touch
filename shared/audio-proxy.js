@@ -1,5 +1,5 @@
 function AudioProxy() {
-  this.server = new AudioServer('192.168.148.32', 1338);
+  this.server = new AudioServer('192.168.53.225', 1338);
   this.server.connect();
   this.synthManager = null;
 }
